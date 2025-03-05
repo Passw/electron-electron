@@ -1,6 +1,6 @@
 # `git apply` and friends don't understand CRLF, even on windows. Force those
 # files to be checked out with LF endings even if core.autocrlf is true.
-patches/chromium/reland_lzma_sdk_update_to_24_09_pt_2.patch -text
+patches/chromium/reland_lzma_sdk_update_to_24_09.patch -text
 *.patch text eol=lf
 DEPS text eol=lf
 yarn.lock text eol=lf
